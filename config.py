@@ -7,21 +7,21 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "29478593"))
-API_HASH = getenv("API_HASH", "24c3a9ded4ac74bab73cbe6dafbc8b3e")
+API_ID = int(getenv("API_ID", "21594284"))
+API_HASH = getenv("API_HASH", "632534e8e24d668c907870ef3639d7ff")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7415843359:AAHg0TwpCm1VaP94hZFnYNzSJPD03wG1tlo")
+BOT_TOKEN = getenv("BOT_TOKEN", "7244688269:AAFqn6chSa0_71vk5wNrHqQYauTi97VlHWA")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "corpsealone")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "JustMe_Charz")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "makima_mubot")
+BOT_USERNAME = getenv("BOT_USERNAME", "Optimus_TestBot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "Makima MUSIC")
+BOT_NAME = getenv("BOT_NAME", "Test")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "Makima_Assis")
-EVALOP = list(map(int, getenv("EVALOP", "6195725562").split()))
+ASSUSERNAME = getenv("ASSUSERNAME", "Bumblebee")
+EVALOP = list(map(int, getenv("EVALOP", "2008011703 6037693220").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://knight_rider:GODGURU12345@knight.jm59gu9.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://test-bot:test-bot@cluster0.l67ew2y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10000"))
 
@@ -31,10 +31,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002092954715"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002173242965"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6259443940"))
+OWNER_ID = int(getenv("OWNER_ID", "6693143450"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -50,8 +50,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None)  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/paradoxdump")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/paradoxdump")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Optimus_TestUpdates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Optimus_TestSupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
